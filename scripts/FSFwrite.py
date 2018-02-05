@@ -22,3 +22,4 @@ end = b"\x05"
 
 filecontent = header + length + data + end
 fsffile.write(filecontent)
+fsffile.close()
